@@ -34,4 +34,46 @@ public class MenuItem {
 	private Double price;
 
 	private boolean available = true;
+
+	public Long getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getCategory() {
+		return category;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public boolean isAvailable() {
+		return available;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public void setAvailable(boolean available) {
+		this.available = available;
+	}
+	
+	
 }
